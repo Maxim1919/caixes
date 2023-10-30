@@ -27,8 +27,8 @@ h1 {
 
 .item{
     display: inline;
-    width: 60px;
-    height: 40px;
+    width: 160px;
+    height: 80px;
     margin: 5px 5px;
     position: relative;
 }
