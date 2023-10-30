@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+#container {
+    border: 5px solid blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding: 10px 0;
+    position: relative;
+    animation: rotar 10s linear infinite;
+}
+
+.item{
+    display: inline;
+    width: 60px;
+    height: 40px;
+    margin: 5px 5px;
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: orange;
+}
+
+.three {
+    background-color: yellow;
+}
+
+.four {
+    background-color: greenyellow;
+}
+
+.five {
+    background-color: blue;
+}
+
+.six {
+    background-color: violet;
+}
+
+.seven {
+    background-color: purple;
+}
+
+@keyframes rotar {
+    0% {
+        width: 20%;
+    }
+    
+    50%{
+        width: 100%;
+    }
+
+    100%{
+        width: 20%;
+    }
+}
